@@ -2,7 +2,8 @@
 from time import sleep
 from colorama import init, Fore
 init()
-print(Fore.LIGHTWHITE_EX + 'CALCULADORA ESTÁCIO INICIANDO...')
+#inicialização do programa
+print(Fore.LIGHTWHITE_EX + 'TABUADA ESTÁCIO INICIANDO...')
 sleep(2)
 numero = int(input(Fore.LIGHTMAGENTA_EX + 'ESCOLHA UM NÚMERO (1), (2), (3): '))
 if numero == 1:
@@ -17,7 +18,7 @@ if numero == 1:
             print((f'{numero1} + {c} = {numero1 + c}'))
     elif operador == '-':
         for c in range(11):
-            print(f'{numero1} - {c} = {numero1 - c}')
+            print(f'{c + numero1} - {c} = {(c + numero1) - c}')
     elif operador == 'x':
         for c in range(11):
             print(f'{numero1} x {c} = {numero1 * c}')
@@ -34,6 +35,7 @@ if numero == 2:
     for c in range(1, 11):
         print(f'''{numero1} x {c} = {numero1 + c} / /  {c + numero1} - {numero1} = {(c + numero1) - numero1} / / {numero1} x {c} = {numero1 * c} / / {numero1 * c} : {numero1} = {(numero1 * c) / numero1:.0f}''' )
 if numero == 3:
+    #ENCERRAMENTO DO PROGRAMA
     print(Fore.LIGHTMAGENTA_EX + 'PROGRAMA ENCERRANDO...')
     sleep(2)
     exit()
