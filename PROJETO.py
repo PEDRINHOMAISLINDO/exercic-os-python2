@@ -33,7 +33,7 @@ if numero == 2:
     numero1 = int(input('ESCOLHA UM NUMERO DE 1 ATÉ 10: '))
     print(Fore.LIGHTRED_EX + '=-' * 25)
     for c in range(1, 11):
-        print(f'''{numero1} x {c} = {numero1 + c} / /  {c + numero1} - {numero1} = {(c + numero1) - numero1} / / {numero1} x {c} = {numero1 * c} / / {numero1 * c} : {numero1} = {(numero1 * c) / numero1:.0f}''' )
+        print(f'''{numero1} + {c} = {numero1 + c} / /  {c + numero1} - {numero1} = {(c + numero1) - numero1} / / {numero1} x {c} = {numero1 * c} / / {numero1 * c} : {numero1} = {(numero1 * c) / numero1:.0f}''' )
 if numero == 3:
     #ENCERRAMENTO DO PROGRAMA
     print(Fore.LIGHTMAGENTA_EX + 'PROGRAMA ENCERRANDO...')
