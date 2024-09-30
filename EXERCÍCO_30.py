@@ -1,4 +1,4 @@
-from random import shuffle
+
 print('01' * 25)
 print('ORDEM CRESCENTE')
 print('01' * 25)
@@ -9,5 +9,5 @@ print('01' * 25)
 n3 = int(input('DIGITE O TERCEIRO NÚMERO: '))
 print('01' * 25)
 lista = [n1, n2, n3]
-shuffle(lista)
+lista.sort()
 print(lista)
