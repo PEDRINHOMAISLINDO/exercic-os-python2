@@ -1,7 +1,7 @@
 print('<>'* 25 )
 print('CONFRONTO ENTRE DOIS TIMES')
 print('<>'* 25 )
-time_a = input('DIGITE O NOME DO TIME A: ').upper()
+time_a = input('DIGITE O NOME DO TIME A: ').upper() # UPPER () SERVE PARA DEIXAR TODOS OS CARACTÉRES MAIÚSCULOS
 print('<>'* 25 )
 time_b = input('DIGITE O NOME DO TIME B: ').upper()
 print('<>'* 25 )
